@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+
+}
+:root{
+    --primary-color: blueviolet;
+  }
+
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.form-button{
+    height: 35px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+textarea{
+    height: 90px !important;
+}
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column ;
+    width: 300px;
+}
+
+.addmessage{
+    color: green;
+}
+
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+
+
+span.carousel-control-next-icon , span.carousel-control-prev-icon{
+    background-color: black;
+    border: 5px;
+}

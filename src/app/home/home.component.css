@@ -1,0 +1,10 @@
+.product-home-img{
+    object-fit: contain;
+    height: 600px;
+    width: 100%;
+}
+.carousel-inner{
+    border: 1px solid grey !important;
+    border-radius: 15px;
+    margin-top: 30px;
+}

@@ -1,0 +1,153 @@
+{
+  "seller": [
+    {
+      "name": "sachin kavhale",
+      "password": "sachin@123",
+      "email": "sachinkavle1012@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Reon Deshmukh",
+      "password": "Reon@123",
+      "email": "reactlearnwithme@gmail.com",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Apple Iphone 13",
+      "price": "₹78000",
+      "category": "Mobile",
+      "color": "White",
+      "description": "a good phone with good storage and nice look",
+      "image": "https://www.techcrazy.co.nz/cdn/shop/files/AppleiPhone13ProMax128GBMP-03551.jpg?v=1689641095",
+      "id": 1
+    },
+    {
+      "name": "Samsung A78",
+      "price": "₹45887",
+      "category": "Mobile",
+      "color": "white",
+      "description": "A good phone with good storage and nice look",
+      "image": "https://www.techcrazy.co.nz/cdn/shop/files/Samsung-Galaxy-A07-_2025_-4GB-64GB-MP03913.jpg?v=1761176622",
+      "id": 2
+    },
+    {
+      "name": "Lenovo V15 G4",
+      "price": "₹37,999 ",
+      "category": "Laptop",
+      "color": "Grey, Black",
+      "description": "Processor: AMD Ryzen 3 7320U Quad Core processor for efficient performance",
+      "image": "https://m.media-amazon.com/images/I/61AccNkmFFL._SX679_.jpg",
+      "id": 3
+    },
+    {
+      "name": "Haier 190L 5 Star",
+      "price": "₹15,290",
+      "category": "Refrigerator",
+      "color": "Dazzle Steel",
+      "description": "Direct Cool Refrigerator: Stylish Single Door Refrigerator with Modern Dazzle Steel finish. Enjoy powerful cooling that can last longer",
+      "image": "https://m.media-amazon.com/images/I/61ozP-Z7wQL._SX679_.jpg",
+      "id": 4
+    },
+    {
+      "name": "OnePlus Nord CE 3 Lite",
+      "price": "₹19999",
+      "category": "Mobile",
+      "color": "Pastel Lime",
+      "description": "6.72 inch display, 108MP camera and fast charging support.",
+      "image": "https://m.media-amazon.com/images/I/61QRgOgBx0L._SX679_.jpg",
+      "id": 5
+    },
+    {
+      "name": "Realme Narzo N55",
+      "price": "₹10999",
+      "category": "Mobile",
+      "color": "Prime Blue",
+      "description": "Powerful budget smartphone with 5000mAh battery and smooth display.",
+      "image": "https://cdn.beebom.com/mobile/2023/11/Realme-Narzo-N55.png",
+      "id": 6
+    },
+    {
+      "name": "HP 15s Intel i3 12th Gen",
+      "price": "₹42990",
+      "category": "Laptop",
+      "color": "Silver",
+      "description": "8GB RAM, 512GB SSD, Windows 11, perfect for students and office work.",
+      "image": "https://m.media-amazon.com/images/I/71g2ednj0JL._SX679_.jpg",
+      "id": 7
+    },
+    {
+      "name": "ASUS Vivobook 15",
+      "price": "₹49990",
+      "category": "Laptop",
+      "color": "Transparent Silver",
+      "description": "Ryzen 5 processor with full HD display and lightweight design.",
+      "image": "https://m.media-amazon.com/images/I/71WuDXpTAlL._SX679_.jpg",
+      "id": 8
+    },
+    {
+      "name": "Sony WH-CH520 Headphones",
+      "price": "₹4490",
+      "category": "Electronics",
+      "color": "Black",
+      "description": "Wireless Bluetooth headphones with 50 hours battery life.",
+      "image": "https://m.media-amazon.com/images/I/61kFL7ywsZS._SX679_.jpg",
+      "id": 9
+    },
+    {
+      "name": "Boat Rockerz 255 Pro+",
+      "price": "₹1499",
+      "category": "Electronics",
+      "color": "Navy Blue",
+      "description": "Bluetooth neckband with fast charge and deep bass sound.",
+      "image": "https://m.media-amazon.com/images/I/61u1VALn6JL._SX679_.jpg",
+      "id": 10
+    },
+    {
+      "name": "LG 7 Kg Front Load Washing Machine",
+      "price": "₹26990",
+      "category": "Home Appliances",
+      "color": "Middle Black",
+      "description": "Fully automatic washing machine with inverter technology.",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRcQNpVpUTREosbBvfcPCIaxlI4soVj1v4B8hyQ_joFuUZ8fTBA9Kthq7oXy112OgBhpqxt0q6D-G0ExLTwNUQ_UJI01SEDsMne-YgE-aofAn1gGMhw8YttbQ",
+      "id": 11
+    },
+    {
+      "name": "Prestige Iris Gas Stove 3 Burner",
+      "price": "₹3299",
+      "category": "Kitchen",
+      "color": "Black",
+      "description": "Toughened glass top gas stove with high efficiency burners.",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcThd1x7PZsmfGbkNWDeVVvRuUXk79pye7GKwok0hNX-gbzUR0ZB2anuVvhYcwLLOGbqM6xLjnvPlzHEAUBSwAKGOYzWI5VHE_yxDt2GktkwE0e1YncoIWIS",
+      "id": 12
+    },
+    {
+      "name": "Milton Thermosteel Water Bottle 1L",
+      "price": "₹799",
+      "category": "Kitchen",
+      "color": "Steel",
+      "description": "Keeps beverages hot and cold for long hours.",
+      "image": "https://m.media-amazon.com/images/I/211dk2P22BL._SY300_SX300_QL70_FMwebp_.jpg",
+      "id": 13
+    },
+    {
+      "name": "Puma Men's Running Shoes",
+      "price": "₹2599",
+      "category": "Fashion",
+      "color": "Black/White",
+      "description": "Comfortable sports shoes suitable for daily running and gym.",
+      "image": "https://m.media-amazon.com/images/I/51We0y6ETSL._SY695_.jpg",
+      "id": 14
+    },
+    {
+      "name": "Skybags Casual Backpack",
+      "price": "₹1199",
+      "category": "Fashion",
+      "color": "Blue",
+      "description": "Durable backpack with laptop compartment and multiple pockets.",
+      "image": "https://m.media-amazon.com/images/I/41l7zKgTe3L._SY300_SX300_QL70_FMwebp_.jpg",
+      "id": 15
+    }
+  ]
+}
