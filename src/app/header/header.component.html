@@ -1,11 +1,25 @@
-<div class="nav">
+<div class="nav ">
+    <!-- (blur)="hideSearch()" -->
     <h1><a routerLink="">E-COM</a></h1>
     <div *ngIf="menuType==='default'" class="nav-search">
-        <input type="text" placeholder="Search For product">
-        <button>Search</button>
+
+        <input style="padding: 0px 15px;" type="text"
+        #searchInput
+        (keyup)="serachproduct($event)"
+        (blur)="hideSearch()" 
+        placeholder="Search For product"
+        >
+
+
+        <button (click)="submitSearch(searchInput.value)" style="color: black ;">Search</button>
+        <ul class="suggested-res-div" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <fa-icon [icon]="faSearch"></fa-icon> <a >{{item.name}}</a>
+            </li>
+        </ul>
     </div>
 <div [ngSwitch]="menuType">
-    <ul *ngSwitchCase="'default'">
+    <ul class="menuu" *ngSwitchCase="'default'">
         <li>
             <a routerLink="/">Home</a>
         </li>

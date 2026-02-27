@@ -13,12 +13,30 @@
       "id": 2
     }
   ],
+  "banners":[
+    {
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2025/Uber/Unrec_GW/Updated/D323819370_3000._CB788515770_.jpg",
+      "id": 1
+    },
+    {
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/IMG25/Media/BTF/W09/WD/Desktop_tall_Hero_3000x1200_EL._CB787469117_.jpg",
+      "id": 2
+    },
+    {
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_3000X1200_Unrec._CB593464763_.jpg",
+      "id": 3
+    },
+    {
+      "image": "https://images-eu.ssl-images-amazon.com/images/G/31/2026/GW/PC/Unrec/Frame_2147205288._CB786510766_.jpg",
+      "id": 4
+    }
+  ],
   "products": [
     {
       "name": "Apple Iphone 13",
       "price": "₹78000",
       "category": "Mobile",
-      "color": "White",
+      "color": "Grey",
       "description": "a good phone with good storage and nice look",
       "image": "https://www.techcrazy.co.nz/cdn/shop/files/AppleiPhone13ProMax128GBMP-03551.jpg?v=1689641095",
       "id": 1
@@ -81,7 +99,7 @@
       "name": "ASUS Vivobook 15",
       "price": "₹49990",
       "category": "Laptop",
-      "color": "Transparent Silver",
+      "color": "T Silver",
       "description": "Ryzen 5 processor with full HD display and lightweight design.",
       "image": "https://m.media-amazon.com/images/I/71WuDXpTAlL._SX679_.jpg",
       "id": 8
@@ -135,7 +153,7 @@
       "name": "Puma Men's Running Shoes",
       "price": "₹2599",
       "category": "Fashion",
-      "color": "Black/White",
+      "color": "Black/neon",
       "description": "Comfortable sports shoes suitable for daily running and gym.",
       "image": "https://m.media-amazon.com/images/I/51We0y6ETSL._SY695_.jpg",
       "id": 14

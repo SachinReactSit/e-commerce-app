@@ -18,3 +18,7 @@ img{
 .update-button{
     margin-left: 15px;
 }
+
+.bg-info{
+    background-color: transparent !important;
+}

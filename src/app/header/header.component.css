@@ -1,15 +1,24 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    background: #131921;
+    width: 100%;
+    position: fixed;
+
+    top: 0;
+    z-index: 99;
+    left: 0;
+    padding: 15px;
 }
 
-.nav h1{
-    color: var(--primary-color) ;
+.nav h1 {
+    color: white;
     margin: 0;
     font-size: 40px;
 }
 
-.nav ul{
+.nav ul {
     display: inline-flex;
     list-style-type: none;
     margin: 0;
@@ -21,12 +30,18 @@
     padding-top: 15px;
 }
 
-.nav li a{
+.menuu li a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
+
 }
 
-.nav .nav-search{
+button{
+    background-color: #ffce12;
+    
+}
+
+.nav .nav-search {
     margin-top: 5px;
     flex: 1;
     display: flex;
@@ -35,23 +50,44 @@
 
 
 }
-.nav .nav-search input{
+
+.nav .nav-search input {
     flex: 1;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    color: black;
+    border: 1px solid white;
     height: 39px;
-    border-right: 0 ;
+    border-right: 0;
 }
 
-.nav .nav-search button{
-    
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+.nav .nav-search button {
+
+    color: white;
+    border: 1px solid white;
     height: 39px;
-    border-left: 0 ;
+    border-left: 0;
 }
 
-.nav h1 a{
-    color: var(--primary-color);
+.nav h1 a {
+    color: white;
     text-decoration: none;
+}
+.suggested-res-div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: white;
+    color: #131921;
+    width: 350px;
+    top: 60px;
+}
+
+.suggested-res-div li{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 15px;
+    padding-bottom: 2px;
+
+}
+.suggested-res-div li a{
+    cursor: pointer;
 }
